@@ -66,7 +66,6 @@ public final class TemperatureSeriesAnalysis {
             }
         }
         return right;
-
     }
 
     public double min() {
@@ -122,8 +121,7 @@ public final class TemperatureSeriesAnalysis {
         }    
         return close;
     }
-
-
+    
     public boolean cond(double tempa, double tempb, int i) {
         final double IMPOS_N = -300;
         if ((tempa !=  IMPOS_N) && (tempb != IMPOS_N)) {
@@ -138,7 +136,6 @@ public final class TemperatureSeriesAnalysis {
             }
         return false;
     }
-
 
     public double[] findthen(double tempa, double tempb) {
         int cout = 0;
@@ -158,8 +155,6 @@ public final class TemperatureSeriesAnalysis {
         return arr;
 
     }
-
-
 
     public double[] findTempsLessThen(double tempValue) {
         final double IMP_LESS = -300;
