@@ -48,15 +48,12 @@ public class TemperatureSeriesAnalysisTest {
 
 
         double [] t12 = array.findTempsInRange(4,7);
-      //  int k12 = 4;
         assertEquals(t12.length, 4);
 
         double t5 = array2.max();
-        //double k5 = 6;
         assertEquals(6, t5, 0.00001);
 
         double t6 = array2.min();
-      //  double k6 = 1;
         assertEquals(1, t6, 0.00001);
 
 
